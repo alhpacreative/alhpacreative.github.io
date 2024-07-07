@@ -1,21 +1,21 @@
- .u-section-1 {
-  min-height: 737px;
+.u-section-1 .u-sheet-1 {
+  min-height: 1474px;
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-auto-columns: 464.328px 464.328px 464.328px;
-  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 682px;
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, calc(50% - 21px));
+  min-height: 1332px;
+  grid-auto-columns: calc(50% - 21px);
+  grid-gap: 42px;
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("images/pexelsphoto3626314.jpeg");
+  background-image: url("images/pexels-photo-2823459.jpeg");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -26,7 +26,7 @@
 }
 
 .u-section-1 .u-image-2 {
-  background-image: url("images/pexels-sheng-ye-1095146367-24375007.jpg");
+  background-image: url("images/pexels-photo-3916422.jpeg");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -37,7 +37,7 @@
 }
 
 .u-section-1 .u-image-3 {
-  background-image: url("images/pexels-photo-3916422.jpeg");
+  background-image: url("images/pexelsphoto3546131.jpeg");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -48,7 +48,7 @@
 }
 
 .u-section-1 .u-image-4 {
-  background-image: url("images/pexelsphoto3546131.jpeg");
+  background-image: url("images/pexels-photo-1719641.jpeg");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -58,133 +58,42 @@
   padding: 10px;
 }
 
-.u-section-1 .u-image-5 {
-  background-image: url("images/pexels-photo-3541389.jpeg");
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-5 {
-  padding: 10px;
-}
-
-.u-section-1 .u-image-6 {
-  background-image: url("images/pexels-photo-2823459.jpeg");
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-6 {
-  padding: 10px;
-}
-
-.u-section-1 .u-image-7 {
-  background-image: url("images/pexels-sheng-ye-1095146367-24375008.jpg");
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-7 {
-  padding: 10px;
-}
-
-.u-section-1 .u-image-8 {
-  background-image: url("images/pexels-sheng-ye-1095146367-24375008.jpg");
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-8 {
-  padding: 10px;
-}
-
-.u-section-1 .u-image-9 {
-  background-image: url("images/pexels-sheng-ye-1095146367-24375008.jpg");
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-9 {
-  padding: 10px;
-}
-
-.u-section-1 .u-gallery-nav-1 {
-  position: absolute;
-  left: 10px;
-  width: 40px;
-  height: 40px;
-}
-
-.u-section-1 .u-gallery-nav-2 {
-  position: absolute;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-}
-
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1218px;
+  }
+
+  .u-section-1 .u-list-1 {
+    margin-bottom: -68px;
+    margin-top: -68px;
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(33.333333333333336% - 6.66667px);
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
+    min-height: 1097px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 5.0000025px);
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
+  .u-section-1 .u-sheet-1 {
+    min-height: 1178px;
   }
-}
 
-@media (max-width: 767px) {
+  .u-section-1 .u-list-1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
+    grid-auto-columns: calc(100% + 0px);
     grid-template-columns: 100%;
   }
 
   .u-section-1 .u-image-1 {
-    background-position: 50% 21.94%;
-  }
-
-  .u-section-1 .u-image-2 {
-    background-position: 50% 21.19%;
-  }
-
-  .u-section-1 .u-image-3 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-4 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-5 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-6 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-7 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-8 {
-    background-position: 50% 18.36%;
-  }
-
-  .u-section-1 .u-image-9 {
-    background-position: 50% 18.36%;
+    background-position: 50% 23.11%;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .u-section-1 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
